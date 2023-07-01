@@ -1,0 +1,64 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 1931px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  width: 537px;
+  font-weight: 700;
+  font-family: Ubuntu, sans-serif;
+  margin: 114px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.25rem;
+  font-style: normal;
+  margin: 77px 53px 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 2125px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-left: 31px;
+    margin-right: 31px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 2253px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 2333px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-bottom: 140px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 301px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 340px;
+  }
+}
