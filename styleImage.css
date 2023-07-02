@@ -1,0 +1,35 @@
+
+.u-back-slide {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.u-back-slide img {
+  width: 700px !important;
+  height: 300px !important;
+  max-height: none !important;
+}
+.containerImgz{
+    display: flex;
+    flex-direction: column;
+}
+.containerImgz img {
+  width: 400px !important;
+  height: 100% !important; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

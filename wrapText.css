@@ -9,15 +9,15 @@
   display: block;
   margin: 10px 0;
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #FFFF00;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 #myBtn:hover {
-  background-color: #0056b3;
+  opacity: 0.8;
 }
 #myBtn:focus {
   outline: none;
