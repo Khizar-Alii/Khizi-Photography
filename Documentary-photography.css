@@ -52,26 +52,26 @@
   background-image: none;
 }
 
+
 .u-section-2 .u-sheet-1 {
-  min-height: 3230px;
+  min-height: 1730px;
+  /* min-height: 3230px; */
   margin-bottom: 0;
 }
 
 .u-section-2 .u-gallery-1 {
-  height: 900px;
-  margin-top: 0;
-  margin-bottom: 60px;
+  height: 1600px !important;
+  /* object-fit: fill; */
 }
 
 .u-section-2 .u-gallery-inner-1 {
-  grid-template-columns: auto auto auto;
-  grid-gap: 22px 22px;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 22px 10px;
 }
-
 .u-section-2 .u-back-image-1 {
-  object-position: 0% 20%;
-  width: 400px !important;
+  width: 334px !important;
   object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-1 {
@@ -80,9 +80,9 @@
 }
 
 .u-section-2 .u-back-image-2 {
-  object-position: 20% 100%;
-  width: 400px !important;
-  object-fit: contain !important;
+  width: 334px !important;
+  object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-2 {
@@ -91,9 +91,9 @@
 }
 
 .u-section-2 .u-back-image-3 {
-  object-position: 0% 20%;
-  width: 400px !important;
+  width: 334px !important;
   object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-3 {
@@ -103,8 +103,9 @@
 
 .u-section-2 .u-back-image-4 {
   object-position: 0 70%;
-  width: 400px !important;
+  width: 334px !important;
   object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-4 {
@@ -118,9 +119,10 @@
 }
 
 .u-section-2 .u-back-image-5 {
-  object-position: 100% 0;
-  width: 400px !important;
-  object-fit: contain !important;
+  object-position: 40%;
+  width: 334px !important;
+  object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-5 {
@@ -134,8 +136,9 @@
 }
 
 .u-section-2 .u-back-image-6 {
-  object-position: 0 190%;
-  width: 400px !important;
+  width: 334px !important;
+  object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-6 {
@@ -149,8 +152,9 @@
 }
 
 .u-section-2 .u-back-image-7 {
-  object-position: 50% 0%;
-  width: 400px !important;
+  width: 334px !important;
+  object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-7 {
@@ -164,10 +168,13 @@
 }
 
 .u-section-2 .u-back-image-8 {
-  object-position: 40% 390%;
+  /* object-position: 40% 390%;
   width: 500px !important;
   height: 300px !important;
+  object-fit: cover !important; */
+  width: 334px !important;
   object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-8 {
@@ -182,7 +189,9 @@
 
 .u-section-2 .u-back-image-9 {
   object-position: 0 100%;
-  width: 400px !important;
+  width: 334px !important;
+  object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-9 {
@@ -196,8 +205,9 @@
 }
 
 .u-section-2 .u-back-image-10 {
-  object-position: 0 45%;
-  width: 400px !important;
+  width: 334px !important;
+  object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-10 {
@@ -211,8 +221,10 @@
 }
 
 .u-section-2 .u-back-image-11 {
-  object-position: 0 0%;
-  width: 400px !important;
+  object-position: 60% 0;
+  width: 334px !important;
+  object-fit: cover !important;
+  height: 400px !important;
 }
 
 .u-section-2 .u-over-slide-11 {
@@ -222,7 +234,6 @@
 @media (max-width: 991px) {
   .u-section-2 .u-gallery-1 {
     height: 2500px !important;
-    /* width: 500px !important; */
     object-fit: fill;
   }
 
@@ -233,21 +244,24 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-gallery-1 {
-    height: 3500px;
-    width: 400px !important;
+    height: 2100px !important;
+    object-fit: fill;
   }
 
   .u-section-2 .u-gallery-inner-1 {
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px 15px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 400px;
-  }
+  
 
   .u-section-2 .u-gallery-1 {
-    height: 3500px;
+    height: 3984px !important
+  }
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 10px;
   }
 }
